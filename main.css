@@ -1,0 +1,77 @@
+body {
+  font-family: "Urbanist", Times, serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.center {
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  max-width: 250px;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #502419; 
+}
+
+h2, h3 {
+  text-transform: uppercase;
+  color: goldenrod; 
+}
+
+p {
+  font-size: 20px; 
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition-duration: 0.4s;
+}
+
+.image:hover{
+  transform: scale(1.1); 
+}
+
+.profile-button {
+  width: 50%;
+  height: 35px;
+  background-color: #502419; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px; 
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s; 
+}
+
+.profile-button:hover {
+  background-color: #daa520;
+}
